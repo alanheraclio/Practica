@@ -1,0 +1,35 @@
+#background {
+		background: linear-gradient(#1A237E, #00695C);
+		height: 100vh;
+		width: 100%;
+	}
+
+	#box {
+	position: relative;
+	background-color:#FAFAFA;
+	width: 24%;
+	left: 38%;
+	height: 40vh;
+	top: 30vh;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 10px;
+	border: solid grey;
+}
+
+.action {
+	cursor: pointer;
+	color: blue;
+}
+
+.action:hover {
+	text-decoration: underline;
+}
+
+#restore-action {
+	display: none;
+}
+
+#action-button {
+	display: none;
+}

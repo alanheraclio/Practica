@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<body>
+
+<div id="background">
+	<div id="box">
+		<form class="form-horizontal">
+			<div id="login-icon">
+				<img src="img/logo-icon.png" width="60%">
+				<span id="show-action" class="action" onclick="showAction()">
+					mostrar accion
+				</span>
+				<span id="restore-action" class="action" onclick="restoreAction()">
+					restaurar
+				</span>
+			</div>
+			<div id="email-section" class="form-group">
+		    	<input type="email" class="form-control" id="inputEmail3" placeholder="Email" ng-model="email">
+			</div>
+			<div id="password-section" class="form-group">
+		    	<input type="password" class="form-control" id="inputPassword3" placeholder="Password" ng-model="password">
+			</div>
+			<div id="submit-button" class="form-group">
+			    <button type="submit" class="btn btn-default" ng-click="myFunction()">Sign in</button>
+			</div>
+			<div id="action-button" class="form-group">
+			    <button type="submit" class="btn btn-default">send me a sign in link to my inbox</button>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
